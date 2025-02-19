@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Manga Temple';
+    src: url('/public/fonts/mangat/mangat.ttf') format('truetype');
+}
+
+.custom-font {
+    font-family: 'Manga Temple', sans-serif;
+}
